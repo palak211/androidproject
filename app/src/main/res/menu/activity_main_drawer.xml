@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/startpreparing"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Start Preparing" />
+        <item
+            android:id="@+id/courses"
+            android:icon="@drawable/ic_insert_comment_black_24dp"
+            android:title="Courses" />
+        <item
+            android:id="@+id/olympaid"
+            android:icon="@drawable/ic_format_indent_increase_black_24dp"
+            android:title="Olympaid" />
+        <item
+            android:id="@+id/nav_credits"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="credits" />
+        <item
+            android:id="@+id/nav_carrerpath"
+            android:icon="@drawable/ic_perm_identity_black_24dp"
+            android:title="Your Carrer Path" />
+        <item
+            android:id="@+id/action_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings" />
+    </group>
+</menu>
